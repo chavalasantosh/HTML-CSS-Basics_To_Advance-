@@ -1,0 +1,119 @@
+.sub{
+    background-color:rgb(220,0,0);
+    color:white;
+    border:none;
+    height: 25px;
+    width: 100px;
+    border-radius:2px;
+    cursor:pointer;
+    margin: 5px;
+    font-weight: bold;
+}
+.join{
+    color:rgb(41, 118, 211);
+    height:25px;
+    width:50px;
+    border-radius: 2px;
+    border-color: rgb(41, 118, 211);
+    background-color: White;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: bold;
+}
+.tweet{
+    border-radius: 50px;
+    color:white;
+    background-color: rgb(51, 163, 228);
+    height: 30px;
+    width: 60px;
+    border:none;
+    cursor:pointer;
+    font-weight: bold;
+    font-size:15px;
+    margin:5px;
+}
+.req{
+    color:white;
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    margin:5px;
+    font-weight: bold;
+}
+.atc{
+    color:black;
+    background-color:rgb(255, 216, 20);
+    border:none;
+    border-radius: 25px;
+    height:25px;
+    width:120px;
+    cursor:pointer;
+    margin:5px;
+    font-weight: bold;
+}
+.sup{
+    color:white;
+    background-color:rgb(46, 164,79);
+    border:none;
+    border-radius:5px;
+    height:25px;
+    width:80px;
+    cursor:pointer;
+    margin:5px;
+    font-weight: bold;
+}
+.gs{
+    color:white;
+    background-color:rgb(121, 82, 179);
+    border:none;
+    border-radius:5px;
+    height:40px;
+    width:100px;
+    cursor:pointer;
+    margin:5px;
+    font-weight:bold;
+    font-size: 12px;
+}
+.dw{
+    color:rgb(108, 117, 125);
+    background-color:white;
+    border-radius:5px;
+    border-color: rgb(108, 117, 125);
+    height:40px;
+    width:100px;
+    cursor: pointer;
+    border-style: solid;
+    border-width:1px;
+    margin:5px;
+    font-weight:bold;
+    font-size:15px;
+}
+.ln{
+    color:white;
+    background-color:rgb(10, 102, 194);
+    border-color:rgb(10, 102, 194);
+    cursor: pointer;
+    border:none;
+    border-radius:15px;
+    height:30px;
+    width:200px;
+    border-style: solid;
+    font-weight:bold;
+    font-size:12px;
+}
+.save{
+    color:rgb(10, 102, 194);
+    background-color:white;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(10, 102, 194);
+    border-width:1px;
+    height:30px;
+    width:60px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor:pointer;
+}

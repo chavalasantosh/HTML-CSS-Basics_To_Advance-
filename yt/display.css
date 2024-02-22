@@ -1,0 +1,159 @@
+.body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search-bar{
+    font-size: 12px;
+}
+.thumbnail{
+width:300px;
+display:block;
+}
+.video-title{
+width:300px;
+}
+.video-stats, .video-author{
+display: block;
+}
+.tbb{
+margin-top:10px;
+width:500px;
+height:100px;
+border:1px solid black;
+}
+
+.tb{
+display: block;
+
+}
+.p2b {
+margin-top: 10px;
+width: 500px;
+height: auto;
+border: 1px solid black;
+display: inline-block;
+vertical-align: middle;
+}
+.note{
+display: inline-block;
+vertical-align: middle;
+}
+.yes, .no {
+width:40px;
+display: inline-block;
+vertical-align: middle;
+}
+.gs{
+background-color: gray;
+margin-top: 10px;
+width: 500px;
+height: auto;
+border: 1px solid black;
+display: inline-block;
+vertical-align: middle;
+}
+.gimg{
+display: block;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;;
+width: 50%;
+}
+.gsearch{
+    font-size:20px;
+    margin:auto;
+    border:none;
+    border-radius:40px;
+    border-color: white;
+    padding: 10px;
+    margin-left: 50px;
+    width:400px;;
+    outline:none;
+}
+.signup {
+    margin-top: 50px;
+    padding:15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    width: 470px;
+}
+
+.fname, .lname{
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(175, 173, 173);
+    border-radius: 10px;
+    border: 1px solid rgb(175, 173, 173);
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.email{
+    width:210px;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(175, 173, 173);
+    border-radius: 10px;
+    border: 1px solid rgb(175, 173, 173);
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.sub{
+    width: 250px;
+    background-color: rgb(0, 162, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin:10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(175, 173, 173);
+    display: block;
+}
+.Finalbox{
+    margin-top: 50px;
+    padding:15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    width: 470px;
+}
+.loc{
+    width:400px;
+    display: block;
+    padding:15px;
+    margin:5px;
+    background-color: rgb(245, 245, 245);
+    border:none;
+}
+
+.des{
+    width:400px;
+    display: block;
+    padding:15px;
+    margin:5px;
+    background-color: rgb(245, 245, 245);
+    border:none;
+}
+.rn{
+    width:200px;
+    display: inline-block;
+    padding:15px;
+    margin:5px;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    border:none;
+    font-weight: bold;
+}
+.sfl{
+    width:200px;
+    display: inline-block;
+    padding:15px;
+    margin:5px;
+    background-color: rgb(245, 245, 245);
+    border:none;
+    font-weight: bold;
+}

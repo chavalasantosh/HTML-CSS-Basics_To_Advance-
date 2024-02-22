@@ -1,0 +1,152 @@
+body{
+    margin:10px;
+    padding:10px;
+    font-size: 40px;
+    text-align: center;
+}
+.tahoma{
+    font-family: Tahoma, sans-serif;
+    font-weight: bold; 
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.dl{
+    font-size: 30px;
+    color:rgb(235, 33, 33);
+    font-style: italic;
+    margin-top:-35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hcc{
+    font-family:Verdana;
+    font-weight: bold;
+}
+.btp{
+    font-family:Verdana;
+    font-size:25px;
+    color:gray;
+    margin-top:-35px;
+}
+.note{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:25px;
+    font-weight: 550;
+}
+.gs{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    background-color:green;
+    border:none;
+    border-radius:10px;
+    font-size:21px;
+    padding:15px;
+    cursor: pointer;
+}
+.note2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:39px;
+    font-weight: 550;
+}
+.note3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:21px;
+    font-weight: 550;
+    padding-left:95px;
+}
+.ln{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-weight: 550;
+    padding-left:15px;
+    color:rgb(20, 104, 173);
+}
+.ln:hover{
+    text-decoration: underline;
+}
+.new{
+    color:orange;
+    font-weight:bold;
+    font-size:20px;
+    text-align: center;
+}
+.mbp{
+    color:black;
+    font-weight:bold;
+    font-size:40px;
+    text-align: center;
+    margin-top:-20px;
+}
+.sfp{
+    color:black;
+    font-weight:bold;
+    font-size:40px;
+    text-align: center;
+    margin-top:-20px;
+}
+.amount{
+    color:black;
+    font-weight:normal;
+    font-size:15px;
+    text-align: center;
+    margin-top:-20px;
+}
+.buy {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 30px;
+    border-color: rgb(41, 118, 211);
+    background-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    margin-top: -100px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.amt{
+    font-weight: bold;
+}
+.usd{
+    color:gray;
+    margin-left:5px;
+    font-size: 25px;
+}
+.d1{
+    color:green;
+    font-size: 20px;
+    margin-top:-35px;
+    margin-left: -15px;
+}
+.d2{
+    color:gray;
+    font-size: 21px;
+    margin-top:-22px;
+    margin-right: -110px;
+}
+.cr{
+    color:red;
+}
+.tfcc{
+    font-weight:bold;
+    font-size: 30px;;
+}
+.gfcc{
+    font-weight:bold;
+    color:gray;
+    font-size: 32px;
+}
+.note4{
+    font-weight:lighter;
+    font-size:32px;
+    padding-left: 350px;
+}
+.note5{
+    font-weight:lighter;
+    font-size:32px;
+    padding-left: 290px;
+}
+.utag{
+    color: rgb(55, 189, 230);
+}

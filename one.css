@@ -1,0 +1,134 @@
+main[class="1"] .amz{
+    color:rgb(0, 113, 133);
+    font-size:15px;
+    margin:5px;
+}
+main[class="1"] .nike{
+    color:black;
+    font-weight: bold;
+    font-size:25px;
+    margin:5px;
+}
+main[class="1"] .amount{
+    color:rgb(0, 118, 0);
+    font-weight: bold;
+    font-size:20px;
+    margin:5px;
+}
+main[class="1"] .dlr{
+    color:black;
+    font-weight:500;
+    font-size:15px;
+    margin:5px;
+}
+main[class="1"] .atc{
+    color:black;
+    background-color:rgb(255, 216, 20);
+    border:none;
+    border-radius:15px;
+    padding:8.5px;
+    margin:8.5px;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:12px;
+    margin:5px;
+    border-style:solid rgb(255, 216, 20);
+    border-width:1px;
+}
+main[class="1"] .bn{
+    color:black;
+    background-color:rgb(255,164,28);
+    border:none;
+    border-radius:15px;
+    padding: 8.5px;
+    margin:8.5px;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:12px;
+    margin:5px;
+    border-style:rgb(255, 164, 28);
+    border-width:1px;
+}
+
+
+main[class="2"] .amz{
+    color:rgb(0, 113, 133);
+    font-size:15px;
+    margin:5px;
+}
+main[class="2"] .amz:hover{
+    color:red;
+    opacity:0.9;
+}
+main[class="2"] .amz:active{
+    color:green;
+}
+main[class="2"] .nike{
+    color:#211522;
+    font-weight: bold;
+    font-size:25px;
+    margin:5px;
+}
+main[class="2"] .nike:hover{
+    color:#613659;
+    opacity:0.9;
+}
+main[class="2"] .amount{
+    color:rgb(0, 118, 0);
+    font-weight: bold;
+    font-size:20px;
+    margin:5px;
+}
+main[class="2"] .amount:hover{
+    color:#95BA61;
+    opacity:0.9;
+}
+main[class="2"] .dlr{
+    color:black;
+    font-weight:500;
+    font-size:15px;
+    margin:5px;
+}
+main[class="2"] .dlr:hover{
+    color:#613659;
+    opacity:0.9;
+}
+main[class="2"] .atc{
+    color:black;
+    background-color:rgb(255, 216, 20);
+    border:none;
+    border-radius:15px;
+    padding:8.5px;
+    margin:8.5px;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:12px;
+    margin:5px;
+    border-style:solid rgb(255, 216, 20);
+    border-width:1px;
+}
+main[class="2"] .atc:hover{
+    opacity: 0.8;
+    transition: opacity;
+    box-shadow:5px 5px 3px rgb(0, 0, 0, 0.15);
+}
+main[class="2"] .bn{
+    color:black;
+    background-color:rgb(255,164,28);
+    border:none;
+    border-radius:15px;
+    padding:8.5px;
+    margin:8.5px;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:12px;
+    margin:5px;
+    border-style:rgb(255, 164, 28);
+    border-width:1px;
+}
+main[class="2"] .bn:hover{
+    opacity: 0.7;
+    background-color: rgb(210,160,20);
+    transition: opacity;
+    box-shadow:5px 5px 3px rgb(0, 0, 0, 0.15);
+}

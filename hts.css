@@ -1,0 +1,237 @@
+.sub{
+    background-color:rgb(220,0,0);
+    color:white;
+    border:none;
+    padding:9.5px;
+    border-radius:2px;
+    cursor:pointer;
+    margin: 5px;
+    font-weight: bold;
+    transition:opacity 0.25s;
+    vertical-align: top;
+}
+.sub:hover{
+    opacity:0.8;
+    box-shadow:5px 5px 3px rgb(0, 0, 0, 0.15);
+}
+.join{
+    color:rgb(41, 118, 211);
+    padding:9.5px;
+    border-radius: 2px;
+    border-color: rgb(41, 118, 211);
+    background-color: White;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: bold;
+    transition:background-color 1s,
+    color 1s;
+    vertical-align: top;
+}
+.join:hover{
+    background-color:rgb(40, 115, 210);
+    color:white;
+    box-shadow:5px 5px 3px rgb(0, 0, 0, 0.15);
+    transition:box-shadow 0.15;
+}
+.join:active{
+    opacity:0.8;
+}
+.tweet{
+    border-radius: 50px;
+    color:white;
+    background-color: rgb(51, 163, 228);
+    padding:9.5px;
+    border:none;
+    cursor:pointer;
+    font-weight: bold;
+    font-size:15px;
+    margin:5px;
+    vertical-align: top;
+}
+.tweet:hover{
+    background-color:rgb(30, 118, 212);
+    color:white;
+    box-shadow:5px 5px 3px rgb(0, 0, 0, 0.15);
+    opacity:0.8;
+    transition:box-shadow 0.15;
+}
+.req{
+    color:white;
+    background-color: black;
+    padding:9.5px;
+    cursor: pointer;
+    margin:5px;
+    font-weight: bold;
+    vertical-align: top;
+}
+.req:hover{
+    background-color:rgb(255, 255, 255);
+    color:black;
+    box-shadow:5px 5px 3px rgb(0, 0, 0, 0.15);
+    opacity:0.8;
+}
+.atc{
+    color:black;
+    background-color:rgb(255, 216, 20);
+    border:none;
+    border-radius: 25px;
+    padding:9.5px;
+    cursor:pointer;
+    margin:5px;
+    font-weight: bold;
+    vertical-align: top;
+}
+.atc:hover{
+    background-color:rgb(12, 143, 82);
+    color:white;
+    box-shadow:5px 5px 3px rgb(0, 0, 0, 0.15);
+}
+.sup{
+    color:white;
+    background-color:rgb(46, 164,79);
+    border:none;
+    border-radius:5px;
+    padding:9.5px;
+    cursor:pointer;
+    margin:5px;
+    font-weight: bold;
+    vertical-align: top;
+}
+.sup:hover{
+    background-color:rgb(48, 104, 22);
+    color:white;
+    box-shadow:5px 5px 3px rgb(0, 0, 0, 0.15);
+    opacity:0.8;
+}
+.gs{
+    color:white;
+    background-color:rgb(121, 82, 179);
+    border:none;
+    border-radius:5px;
+    padding:9.5px;
+    cursor:pointer;
+    margin:5px;
+    font-weight:bold;
+    font-size: 12px;
+    vertical-align: top;
+}
+.gs:hover{
+    background-color:rgb(184, 59, 209);
+    color:black;
+    box-shadow:5px 5px 3px rgb(0, 0, 0, 0.15);
+    opacity:0.8;
+}
+.dw{
+    color:rgb(108, 117, 125);
+    background-color:white;
+    border-radius:5px;
+    border-color: rgb(108, 117, 125);
+    padding:9.5px;
+    cursor: pointer;
+    border-style: solid;
+    border-width:1px;
+    margin:5px;
+    font-weight:bold;
+    font-size:15px;
+    vertical-align: top;
+}
+.dw:hover{
+    background-color:black;
+    color:white;
+    box-shadow:5px 5px 3px rgb(0, 0, 0, 0.15);
+    opacity:0.8;
+}
+.ln{
+    color:white;
+    background-color:rgb(10, 102, 194);
+    border-color:rgb(10, 102, 194);
+    cursor: pointer;
+    border:none;
+    border-radius:15px;
+    padding:9.5px;
+    border-style: solid;
+    font-weight:bold;
+    font-size:12px;
+    vertical-align: top;
+}
+.ln:hover{
+    background-color:rgb(30, 118, 212);
+    color:white;
+    box-shadow:5px 5px 3px rgb(0, 0, 0, 0.15);
+    opacity:0.8;
+}
+.save{
+    color:rgb(10, 102, 194);
+    background-color:white;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(10, 102, 194);
+    border-width:1px;
+    padding:9.5px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor:pointer;
+    vertical-align: top;
+}
+.save:hover{
+    background-color:rgb(30, 118, 212);
+    color:white;
+    box-shadow:5px 5px 3px rgb(0, 0, 0, 0.15);
+    opacity:0.8;
+}
+.stretch{
+    color:white;
+    background-color: green;
+    padding:9.5px;
+    border:none;
+    cursor:pointer;
+    border-style:solid;
+    border-color:green;
+    border-width:1px;
+    font-weight:bold;
+    font-size:12px;
+    vertical-align: top;
+}
+.stretch:hover{
+    padding:30px;
+    transition: padding 1s;
+}
+.shadow{
+    color:white;
+    background-color: green;
+    padding:9.5px;
+    border:none;
+    cursor:pointer;
+    border-style:solid;
+    border-color:green;
+    border-width:1px;
+    font-weight:bold;
+    font-size:12px;
+    vertical-align: top;
+}
+.shadow:hover{
+    box-shadow:5px 5px 3px rgb(0, 0, 0, 0.15);
+    transition: box-shadow 1s;
+    
+}
+.pm1{
+    color:white;
+    background-color: green;
+    padding:9.5px;
+    border:none;
+    cursor:pointer;
+    border-style:solid;
+    border-color:green;
+    border-width:1px;
+    font-weight:bold;
+    font-size:12px;
+    vertical-align: top;
+}
+.pm1:hover{
+    box-shadow:5px 5px 3px rgb(0, 0, 0, 0.15);
+    transition: box-shadow 1s;
+    padding:30px;
+    transition: padding 1s;
+}

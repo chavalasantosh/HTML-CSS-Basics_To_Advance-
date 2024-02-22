@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ytrail</title>
+    <style>
+        .body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .search-bar{
+            display: block;
+        }
+        .thumbnail{
+        width:300px;
+        display:block;
+        }
+        .video-title{
+        width:300px;
+        }
+        
+        .video-preview{
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right:10px;
+        }
+        .red{
+            width:300px;
+            height:200px;
+            background-color: red;
+            color: wheat;
+        }
+        .green{
+            width:100px;
+            height:100px;
+            background-color: green;
+            color: wheat;
+            border-radius: 50px;
+        }
+        .feedback{
+            width:300px;
+            height:100px;
+            border: 1px solid black;
+            display: block;
+            margin-top: 20px;
+        }
+        .service{
+            padding-left:20px;
+            display: block;
+        }
+        .yes, .no{
+            margin-left:20px;
+        }
+        .ytmusic{
+            width:420px;
+            height:150px;
+            border: 1px solid gray;
+            display: block;
+            margin-top: 20px;
+            background-color: rgb(63, 62, 62);
+        }
+        .install-yt-music{
+            font-weight: bold;
+            color: white;
+            margin-left:20px;
+        }
+        .ytmusic-note{
+            color:gray;
+            font-size: 20px;
+            margin-left:20px;
+            margin-top:-10px;
+        }
+        .tweet-box {
+            width: 400px;
+            height: auto;
+            background-color: rgba(252, 248, 248, 0.932);
+            border: none;
+            padding: 10px;
+            margin-top:10px;
+            text-align: center;
+            box-shadow: 1px 1px 3px rgb(63, 62, 62);
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        .wh, .tweet {
+            vertical-align: middle;
+            margin-right: 10px;
+            display: inline-block;
+        }
+
+        .tweet {
+            background-color: rgb(52, 159, 221);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            border-width: 2px;
+            border-color: rgb(52, 125, 221);
+            font-size: 15px;
+            vertical-align: middle;
+            font-weight: bold;
+            margin-left:80px;
+            width: 15%;
+            display: inline-block;
+        }
+        .profiles{
+            width:110px;
+            display:inline-block;
+            margin-top: 20px;
+            vertical-align: top;
+        }
+        .dp{
+            width:100px;
+            height:100px;
+        }
+        .name{
+            display: block;
+            font-size: 15px;
+            width:120px;
+            height:30px;
+        }
+        .des{
+            width:100px;
+            height:30px;
+            font-size:10px;
+            margin-top:-20px;
+        }
+        .add{
+            color:white;
+            background: rgb(53, 150, 206);
+            border:none;
+            border-radius: 5px;
+            border-style: 1px solid rgb(53, 150, 206);;
+            padding:10px;
+        }
+        .gfield{
+            margin-top:20px;
+            width:300px;
+            height:300px;
+            background-color: gray;
+        }
+        .gimage{
+            width:100px;
+            height:100px;
+            display: block;
+            padding:40px;
+            margin-left:50px;
+        }
+        .search-field{
+            width:200px;
+            height:30px;
+            margin-left:30px;
+            margin-right:80px;
+            margin-top:-100px;
+            object-fit: contain;
+        }
+        .gsearch{
+            width:80px;
+            height:30px;
+            font-size: 10px;
+            margin-left:40px;
+            margin-right:10px;
+            object-fit: contain;
+            display: inline-block;
+        }
+        .lucky{
+            width:100px;
+            height:30px;
+            font-size: 10px;
+            margin-right:20px;
+            object-fit: contain;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <input class="search-bar" type="text" placeholder="Search">
+    <div class="video-preview">
+    <img class="thumbnail" src="thumbnails\backend.jpg">
+    <p class="video-title">
+        Backend web development - a complete overview</p>
+    <p class="video-author">SuperSimpleDev</p>
+    <p class="video-stats">1.4M views &#183; 2 years ago</p>
+    </div>
+
+    <div class="video-preview">
+    <img class="thumbnail" src="thumbnails\calmdownv.jpg">
+    <p class="video-title">
+        Rema, Selena Gomez - Calm Down (Official Music Video)</p>
+    <p class="video-author">Selena Gomez</p>
+    <p class="video-stats">794M views &#183; 1 year ago</p>
+    </div>
+
+    <div class="video-preview">
+    <img class="thumbnail" src="thumbnails\lonely.jpg">
+    <p class="video-title">
+        Akon - Lonely (Official Music Video)</p>
+    <p class="video-author">Akon</p>
+    <p class="video-stats">1B views &#183; 14 years ago</p>
+    </div>
+    <div class="red">
+        <p style="padding:90px;">This Is A Red Box</p>
+    </div>
+
+    <div class="green">
+        <p style="padding:20px;">This Is A Green Circle</p>
+    </div>
+
+    <div class="feedback">
+        <p class="service">Satisfied with our service?</p>
+        <button class="yes">Yes</button>
+        <button class="no">No</button>
+    </div>
+    <div class="ytmusic">
+        <h1 class="install-yt-music">Install YouTube Music</h1>
+        <p class="ytmusic-note">Add YouTube Music to your desktop
+            for quick and early access
+        </p>
+    </div>
+
+    <div class="tweet-box">
+        <img class="icon" src="https://yt3.ggpht.com/6TBRPMTXIpd9qygfF0fW93WbqdGNosHob0z3k670Z4Q34z2XUkrw10hXJbpdTU7V2Ii5pSt1=s68-c-k-c0x00ffffff-no-rj">
+        <p class="wh" style="color: gray;">What's happening?</p>
+        <button class="tweet">Tweet</button>
+    </div>
+
+    <div class="profiles">
+        <img class="dp" src="https://img.freepik.com/premium-photo/himalayas-view-from-gokyo-ri_130291-3241.jpg">
+        <h4 class="name">Display Picture 1</h4>
+        <p class="des">A HTML Class</p>
+        <button class="add">Enroll now</button>
+    </div>
+
+    <div class="profiles">
+        <img class="dp" src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg">
+        <h4 class="name">Display Picture 2</h4>
+        <p class="des">A HTML Class</p>
+        <button class="add">Enroll now</button>
+    </div>
+
+    <div class="profiles">
+        <img class="dp" src="https://img.freepik.com/free-photo/natures-beauty-reflected-tranquil-mountain-waters-generative-ai_188544-7867.jpg">
+        <h4 class="name">Display Picture 3</h4>
+        <p class="des">A HTML Class</p>
+        <button class="add">Enroll now</button>
+    </div>
+
+    <div class="gfield">
+        <img class="gimage" src="https://img.freepik.com/premium-psd/social-media-3d-logo_665513-387.jpg">
+        <textarea class="search-field" title="Search" value="" placeholder="Search Google or type a URL"></textarea>
+        <input class="gsearch" value="Google Search" aria-label="Google Search" type="submit">
+        <input class="lucky" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" type="submit">
+    </div>
+</body>
+</html>

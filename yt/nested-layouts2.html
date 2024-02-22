@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+
+
+body, p{
+            font-family: 'Roboto', Arial;
+            margin-top:0;
+            margin-bottom:0;
+        }
+        .search-bar{
+            display: block;
+        }
+        .video-preview{
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right:10px;
+        }
+        .thumbnail-row {
+            margin-bottom:12px;
+        }
+        .thumbnail{
+        width:300px;
+        display:block;
+        }
+        .channel-picture{
+            display:inline-block;
+            width:50px;
+            vertical-align: top;
+        }
+        .profile-picture{
+            width:50px;
+            border-radius:40px;
+        }
+        .video-info{
+            display: inline-block;
+            width: 200px;
+            margin-left: 10px;
+        }
+        .video-title{
+            margin-top:0;
+            margin-bottom:10px;
+            font-size:15px;
+            font-weight: 700;
+            line-height:20px;
+        }
+        .video-author{
+            margin-bottom:4px;
+        }
+        .video-author, .video-stats{
+            font-size: 12px;
+            color:rgb(96, 96, 96);
+        }
+
+      .mos-profile{
+        width:300px;
+        height:100px;
+      }
+      .icon{
+              margin-top:20px;
+              display:inline-block;
+            }
+      .mos-icon{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display:inline-block;
+      }
+      .mos-details{
+        display:inline-block;
+        margin-left:5px;
+      }
+      .icon-name{
+        font-size:15px;
+        font-weight:700;
+        display:block;
+      }
+    .icon-type, .icon-colr{
+            margin-top:5px;
+            font-size:12px;
+            font-weight:500;
+            display:block;
+            color:rgb(96, 96, 96);
+    }
+
+.mos-profile2{
+        width:300px;
+        height:100px;
+      }
+.follow-btn{
+  display:inline-block;
+  margin-left:80px;
+}
+.btn{
+  width:100px;
+  height:50px;
+  border-radius:15px;
+  font-size:20px;
+  font-weight:700;
+  color:rgb(255, 255, 255);
+  border: 1px solid rgb(29, 161, 242);
+  background-color:rgb(29, 161, 242);
+  display:block;
+}
+
+
+    </style>
+</head>
+<body>
+    <input class="search-bar" type="text" placeholder="Search">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails\backend.jpg" alt="backend">
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="https://yt3.googleusercontent.com/ytc/AIf8zZSoN0PkqajCSfsSJT8C0zd9kgJ5zI-JR_K7BOJ3=s176-c-k-c0x00ffffff-no-rj" alt="supersimpledev">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Backend web development - a complete overview</p>
+          <p class="video-author">SuperSimpleDev</p>
+          <p class="video-stats">1.4M views &#183; 2 years ago</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails\calmdownv.jpg" alt="calmdown">
+      </div>
+      <div class="channel-picture">
+        <img class="profile-picture" src="https://yt3.googleusercontent.com/15tQxFe-sB8u_9AomX4M_FGRwcDmlmu6g_tCvfSQkSdkPJhH_y6g0fFM0J4kl5U8rxkJdIofyA=s176-c-k-c0x00ffffff-no-rj" alt="selenagomez">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          Rema, Selena Gomez - Calm Down (Official Music Video)</p>
+        <p class="video-author">Selena Gomez</p>
+        <p class="video-stats">794M views &#183; 1 year ago</p>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails\lonely.jpg" alt="lonely">
+      </div>
+      <div class="channel-picture">
+        <img class="profile-picture" src="https://yt3.googleusercontent.com/6Q7HnHvl9CBabGWJCGZmLaBuPHry-2FmzQ04vDHArShVsUg7pYSgpDge4O42j9WdQ5X0nD1L=s176-c-k-c0x00ffffff-no-rj" alt="Akon">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          Akon - Lonely (Official Music Video)</p>
+        <p class="video-author">Akon</p>
+        <p class="video-stats">1B views &#183; 14 years ago</p>
+      </div>
+    </div>
+  
+    <div class="mos-profile">
+      <div class="icon">
+        <img class="mos-icon" src="https://img.freepik.com/premium-photo/close-up-flys-eye-with-blue-background-generative-ai_958165-30487.jpg" alt="mosq">
+      </div>
+      <div class="mos-details">
+        <p class="icon-name">Mos</p>
+        <p class="icon-type">Mosquito</p>
+        <p class="icon-colr">Colorful</p>
+      </div>
+    </div>
+    <div class="mos-profile2">
+      <div class="icon">
+        <img class="mos-icon" src="https://img.freepik.com/premium-photo/close-up-flys-eye-with-blue-background-generative-ai_958165-30487.jpg" alt="mosq">
+      </div>
+      <div class="mos-details">
+        <p class="icon-name">Mos</p>
+        <p class="icon-type">Mosquito</p>
+        <p class="icon-colr">Colorful</p>
+      </div>
+      <div class="follow-btn">
+        <button class="btn" title="Follow">Follow</button>
+      </div>
+    </div>
+  
+  </body>
+</html>

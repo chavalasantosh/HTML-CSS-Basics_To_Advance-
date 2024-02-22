@@ -1,0 +1,159 @@
+body{
+    padding:40px;
+    margin:40px;
+}
+.thumbnail{
+    width:300px;
+}
+.search{
+    font-size:20px;
+    margin-left:12px;
+}
+.thumbnail2{
+    width:300px;
+    border-radius: 30px;
+    object-fit: contain;
+}
+.thumbnail3{
+    width:300px;
+    height: 300px;
+    object-fit: contain;
+    object-position: bottom;
+}
+.thumbnail4 {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.boxx {
+    width: 200px; /* Set the width of the box */
+    height: 200px; /* Set the height of the box */
+    background-color: #f0f0f0; /* Set the background color of the box */
+    border: 2px solid #333; /* Set the border style and color */
+    padding: 20px; /* Set the padding inside the box */
+}
+.box {
+    width: 400px;
+    height: auto;
+    background-color: #f0f0f0;
+    border: none;
+    padding: 20px;
+}
+
+.box h2 {
+    margin-top: 0;
+}
+.box2 {
+    width: 300px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid lightslategray;
+    padding: 20px;
+    margin-top:10px;
+}
+.search2{
+    font-size:20px;
+    margin-left:12px;
+    border-radius:9px ;
+    border-color: 1px solid rgb(199, 195, 195);;
+    padding: 10px;
+}
+.box3 {
+    width: 500px;
+    height: auto;
+    background-color:rgba(252, 248, 248, 0.932);
+    border:none;
+    padding: 20px;
+}
+.search3{
+    font-size:20px;
+    margin-left:12px;
+    border:none;
+    border-radius:40px;
+    border-color: white;
+    padding: 10px;
+    width:400px;
+    outline:none;
+}
+.aj{
+    background-color: rgb(52, 125, 221);
+    color:white;
+    border:none;
+    border-radius:5px;
+    border-color: solid 2px rgb(52, 125, 221);
+    font-size: 15px;
+    font-weight: bold;
+    padding:10px;
+    width: 380px;
+}
+.box4 {
+    width: 500px;
+    height: 100%;
+    background-color:rgba(252, 248, 248, 0.932);
+    border:none;
+    padding: 20px;
+    vertical-align: middle;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.icon, .wh, .tweet{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.tweet{
+    background-color: rgb(52, 125, 221);
+    color:white;
+    border:none;
+    border-radius:10px;
+    border-style: solid rgb(52, 125, 221);;
+    border-color: solid 2px rgb(52, 125, 221);
+    font-size: 15px;
+    font-weight: bold;
+    padding:10px;
+    width: auto;
+}
+
+
+
+.box4 {
+    width: 400px;
+    height: auto;
+    background-color: rgba(252, 248, 248, 0.932);
+    border: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.wh, .tweet {
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.tweet {
+    background-color: rgb(52, 125, 221);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgb(52, 125, 221);
+    font-size: 15px;
+    vertical-align: middle;
+    font-weight: bold;
+    padding-left : 10px;
+    margin-left:80px;
+    width: auto;
+    display: inline-block;
+}
